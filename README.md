@@ -12,15 +12,15 @@ This project builds a logistic regression model to predict customer churn for a 
 - **Target:** Churn (Yes/No)
 
 ## Project Structure
-telco-churn-prediction/
-├── data/
-│   ├── raw/                    # Original dataset from Kaggle
-│   └── processed/              # Cleaned and encoded data
-├── notebooks/
-│   ├── 01_exploration_and_cleaning.ipynb
-│   ├── 02_eda_and_feature_engineering.ipynb
-│   └── 03_modeling_and_recommendations.ipynb
-└── README.md
+
+- **data/** - All datasets
+  - raw/ - Original Kaggle dataset
+  - processed/ - Cleaned and encoded data
+- **notebooks/** - Jupyter notebooks (in order)
+  - 01_exploration_and_cleaning.ipynb
+  - 02_eda_and_feature_engineering.ipynb
+  - 03_modeling_and_recommendations.ipynb
+- **README.md** - This file
 
 ## Methodology
 
